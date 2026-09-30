@@ -33,3 +33,16 @@ else if (buyersAge>=18 && buyersAge <=64){
 
 }
 
+//Exercise 4
+
+const balance = -10;
+
+let accountStatus;
+
+if (balance < 0) {
+    accountStatus = "Account Overdrawn";
+} else {
+    accountStatus = "Account Active";
+}
+
+console.log(accountStatus);
