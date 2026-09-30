@@ -17,3 +17,4 @@ const multiplicationResult = stringNum * actualNum
 
 console.log( additionResult ,typeof "additionResult");
 console.log(multiplicationResult ,typeof "multiplicationResult");
+
