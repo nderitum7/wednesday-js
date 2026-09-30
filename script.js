@@ -33,7 +33,7 @@ else if (buyersAge>=18 && buyersAge <=64){
 
 }
 
-//Exercise 4
+//Exercise 4: Conditional (Ternary) Operator
 
 const balance = -10;
 
@@ -46,3 +46,32 @@ if (balance < 0) {
 }
 
 console.log(accountStatus);
+
+//Exercise 5: Comprehensive Challenge
+
+const score = 90;
+
+let Grade;
+
+switch (true) {
+    case (score>=90):
+        Grade = "A";
+        break;
+
+    case (score>=80):
+        Grade = "B";
+        break;    
+
+    case (score>=70):
+        Grade = "C";
+        break;
+
+    case (score>=60):
+        Grade = "D";
+        break;
+    
+    default:
+        Grade = "F";
+}
+
+console.log("Grade", Grade);
